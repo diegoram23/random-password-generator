@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,41 @@
     <link rel="stylesheet" href="styles.css">
     <script src="main.js" defer></script>
 </head>
+
 <body>
 
+    <div class="container">
+        <h2>Random Password Generator</h2>
+
+        <div class="result-container">
+            <span id="result"></span>
+        </div>
+        <div class="settings">
+
+            <div class="setting">
+                <label for="uppercase">Include uppercase</label>
+                <input type="checkbox" id="uppercase" checked />
+            </div>
+            <div class="setting">
+                <label for="lowercase"> Include lowercase</label>
+                <input type="checkbox" id="lowercase" checked/>
+            </div>
+            <div class="setting">
+                <label for="numbers"> Include numbers</label>
+                <input type="checkbox" id="numbers" checked>
+            </div>
+            <div class="setting">
+                <label for="special-chars">Special characters</label>
+                <input type="checkbox" id="special-chars" checked/>
+            </div>
+        </div>
+
+
+        <button id="generate">Generate Password</button>
+    </div>
+
+
+
 </body>
+
 </html>

@@ -32,3 +32,4 @@ function randomSpecialChars() {
     let randomSpecial = specialChars[Math.floor(Math.random() * specialChars.length)]
     return randomSpecial
 }
+
