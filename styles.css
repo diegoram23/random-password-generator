@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Sono', sans-serif;
 }
 
 .container {
@@ -35,7 +35,7 @@ body {
     margin:50px 0 50px 0;
     text-align: center;
     font-size: 35px;
-    border-bottom: 2px solid #22b455;
+    border-bottom: 3px solid #22b455;
 }
 
 .password-display {
@@ -80,6 +80,7 @@ label {
     border-radius: 5px;
     margin-top: 40px;
     cursor: pointer;
+    font-family: 'Sono', sans-serif;
 }
 
 .checks {
