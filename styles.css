@@ -1,0 +1,88 @@
+body {
+    background-color: #0e0e1b;
+    color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    border: #22b455 2px solid;
+    border-radius: 10px;
+    background-color:  #343a40;;
+    padding: 3rem;
+    height: 500px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.title {
+    margin:50px 0 50px 0;
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 2px solid #22b455;
+}
+
+.password-display {
+    background-color: #0e0e1b;
+    padding: 1rem;
+    width: 350px;
+    height: 2rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #22b455;
+    font-size: 24px;
+    font-weight: bold;
+    word-break: break-all;
+}
+
+.settings {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#generate {
+    grid-column: span 2;
+    background-color: #0e0e1b;
+    color: #22b455;
+    border: #22b455 2px solid;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.checks {
+    accent-color: #22b455;
+    cursor: pointer;
+}
