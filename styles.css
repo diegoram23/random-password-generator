@@ -38,7 +38,7 @@ body {
     border-bottom: 3px solid #22b455;
 }
 
-.password-display {
+#result {
     background-color: #0e0e1b;
     padding: 1rem;
     width: 350px;
@@ -48,7 +48,8 @@ body {
     justify-content: center;
     align-items: center;
     border: 2px solid #22b455;
-    font-size: 24px;
+    box-shadow: 0px 0px 5px #22b455;
+    font-size: 25px;
     font-weight: bold;
     word-break: break-all;
 }
@@ -74,13 +75,19 @@ label {
     background-color: #0e0e1b;
     color: #22b455;
     border: #22b455 2px solid;
+    box-shadow: 0px 0px 5px #22b455;
     padding: 0.5rem 1rem;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 5px;
     margin-top: 40px;
     cursor: pointer;
     font-family: 'Sono', sans-serif;
+}
+
+#length {
+    font-size: 14px;
+    width: 2rem;
 }
 
 .checks {

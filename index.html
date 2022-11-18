@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
     <title>Random Password Generator</title>
     <link rel="stylesheet" href="styles.css">
     <script src="main.js" defer></script>
@@ -19,18 +19,21 @@
         <div class="title-container">
             <h1 class="title">Random Password Generator</h1>
 
-            <h3 class="password-display">Password</h3>
+            <h3 id="result">Password</h3>
         </div>
         <div class="settings">
 
+            <label for="password-length">Password Length </label>
+            <input type="number" id="length" min="8" max="25" value="8"/>
+
             <label for="uppercase">Include Uppercase</label>
-            <input class="checks"type="checkbox" id="uppercase" checked />
+            <input class="checks" type="checkbox" id="uppercase" checked />
 
             <label for="lowercase"> Include Lowercase</label>
-            <input class= "checks"type="checkbox" id="lowercase" checked />
+            <input class="checks" type="checkbox" id="lowercase" checked />
 
             <label for="numbers"> Include Numbers</label>
-            <input class="checks"type="checkbox" id="numbers" checked>
+            <input class="checks" type="checkbox" id="numbers" checked>
 
             <label for="special-chars">Special Characters</label>
             <input class="checks" type="checkbox" id="special-chars" checked />
@@ -38,8 +41,6 @@
             <button id="generate">Generate Password</button>
         </div>
     </div>
-
-
 
 </body>
 

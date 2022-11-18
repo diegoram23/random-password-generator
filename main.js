@@ -1,3 +1,30 @@
+// DOM elements
+const resultEl = document.getElementById("result")
+const length = document.getElementById("length")
+const uppercaseEl = document.getElementById("uppercase")
+const lowercaseEl = document.getElementById("lowercase")
+const numbersEl = document.getElementById("numbers")
+const specialCharsEl = document.getElementById("special-chars")
+const generateEl = document.getElementById("generate")
+
+
+
+
+
+
+const randomFunc = {
+    lower: randomLowerCaseChars,
+    upper: randomUpperCaseChars,
+    numbers: randomNumberChars,
+    special: randomSpecialChars
+}
+
+
+
+
+
+
+
 
 // Characters that user can choose from
 const lowerCaseChars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
