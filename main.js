@@ -6,8 +6,7 @@ const characters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 
 // DOM elements
 const resultEl1 = document.getElementById("first-pass")
 const resultEl2 = document.getElementById("second-pass")
-const generateEl = document.getElementById("generate")
-let passwordLength = 12;
+let passwordLength = 14;
 let generatedPassword = "";
 
 
@@ -19,13 +18,18 @@ function getRandomChar() {
     return randomChar
 }
 
-// function that returns entire random password length
+// function that generates random string
 function generateRandomPassword() {
+    generatedPassword = ""
     for (let i = 0; i < passwordLength; i++) {
         generatedPassword += getRandomChar();
-        resultEl1.textContent = generatedPassword
-        resultEl2.textContent = generatedPassword
     }
-    generatedPassword = " "
+    return generatedPassword
+    
 }
-
+// function that displays return values
+function displayPasswords() {
+    resultEl1.textContent = generateRandomPassword()
+    resultEl2.textContent = generateRandomPassword()
+    
+}
