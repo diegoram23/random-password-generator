@@ -30,11 +30,11 @@ h1 {
     margin-bottom: 10px;
 }
 
-.subtext{
+.subtitle{
     font-size: 15px;
-    color: #d5d4d8;
     margin-top: 10px;
     margin-bottom: 50px;
+    font-style: italic;
 }
 
 #title-color {

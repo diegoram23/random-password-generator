@@ -8,7 +8,7 @@ const toggle = document.getElementById("toggleDark")
 const body = document.querySelector("body")
 const resultEl1 = document.getElementById("first-pass")
 const resultEl2 = document.getElementById("second-pass")
-let passwordLength = 25;
+let passwordLength = 13;
 let generatedPassword = "";
 
 
@@ -45,12 +45,9 @@ toggle.addEventListener("click", function() {
         body.style.color = "#273549"
         body.style.transition = "2s"
         this.style.color = 'black'
-
     } else {
         body.style.background = "#1f2937"
         this.style.color = 'white'
         body.style.color = 'white'
-
-
     }
 })
