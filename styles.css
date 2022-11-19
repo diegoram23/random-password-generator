@@ -1,11 +1,9 @@
 * {
     margin: 0;
+    box-sizing: border-box;
     padding: 0;
 }
 
-@media screen {
-    
-}
 
 html, body {
     background-color: #1f2937;
@@ -65,7 +63,7 @@ hr {
 
 .password-container {
 display: flex;
-margin-top: 35px;
+margin-top: 20px;
 gap: 10px;
 
 }
@@ -76,18 +74,27 @@ gap: 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 2rem;
+    height: 3rem;
     font-size: 16px;
     width: 165px;
     color: #55f991;
     background-color: #273549;
     cursor: pointer;
-    padding: 10px 16px;
+    padding: 29px 16px;
     border-radius: 7px;
     word-break: break-all;
 }
 
 #first-pass:hover, #second-pass:hover {
     color: #FFFFFF;
-    font-size: 17px;
 }
+
+#copy {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+#first-pass:active, #second-pass:active {
+    background: #55f991;
+  }
+  

@@ -6,7 +6,7 @@ const characters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 
 // DOM elements
 const resultEl1 = document.getElementById("first-pass")
 const resultEl2 = document.getElementById("second-pass")
-let passwordLength = 14;
+let passwordLength = 25;
 let generatedPassword = "";
 
 
