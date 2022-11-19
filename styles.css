@@ -1,17 +1,27 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
     background-color: #1f2937;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 800px;
+    height: 100%;
     margin: 0;
+    padding: 0 15px 0 15px;
     font-family: 'Sono', sans-serif;
 }
 
-
-
+.main {
+flex: 1;
+margin-top: 150px;   
+   
+}
 h1 {
     font-size: 40px;
     margin-top: 10px;
@@ -75,4 +85,12 @@ gap: 10px;
 
 #first-pass:hover, #second-pass:hover {
     color: #FFFFFF;
+}
+
+.footer {
+background-color: #273549;
+padding: 8px;
+width: 100%;
+text-align: center;
+font-size: 12px;
 }
