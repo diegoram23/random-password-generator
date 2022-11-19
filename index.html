@@ -10,17 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
     <title>Random Password Generator</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <script src="main.js" defer></script>
 </head>
 
 <body>
     
     <div class="main">
-        <h1> Generate a
+        <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+        <h1> Generate a 
             <br>
             <span id="title-color">random password</span>
         </h1>
-        <h2>Never use an unsecure password again</h2>
+        <h2 class="subtext">Never use an unsecure password again</h2>
         <button id="generate" onclick="displayPasswords()"> Generate passwords</button>
         <hr>
         <div class="password-container">

@@ -4,6 +4,8 @@ const characters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 
     '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '!', '@', '#', '$', '%', '^', '&', '*', '?', '.']
 
 // DOM elements
+const toggle = document.getElementById("toggleDark")
+const body = document.querySelector("body")
 const resultEl1 = document.getElementById("first-pass")
 const resultEl2 = document.getElementById("second-pass")
 let passwordLength = 25;
@@ -33,3 +35,22 @@ function displayPasswords() {
     resultEl2.textContent = generateRandomPassword()
     
 }
+
+// function to change display colors (light/dark mode)
+
+toggle.addEventListener("click", function() {
+    this.classList.toggle("bi-brightness-high-fill")
+    if (this.classList.toggle("bi-moon")) {
+        body.style.backgroundColor = "#EEEEEE"
+        body.style.color = "#273549"
+        body.style.transition = "2s"
+        this.style.color = 'black'
+
+    } else {
+        body.style.background = "#1f2937"
+        this.style.color = 'white'
+        body.style.color = 'white'
+
+
+    }
+})

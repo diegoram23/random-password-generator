@@ -5,7 +5,7 @@
 }
 
 
-html, body {
+body {
     background-color: #1f2937;
     color: #FFFFFF;
     display: flex;
@@ -30,7 +30,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-h2 {
+.subtext{
     font-size: 15px;
     color: #d5d4d8;
     margin-top: 10px;
@@ -97,4 +97,11 @@ gap: 10px;
 #first-pass:active, #second-pass:active {
     background: #55f991;
   }
-  
+ 
+  #toggleDark {
+   font-size: 25px; 
+   transform: translate(-50%, -50%);
+   cursor: pointer;
+   color: #EEEEEE;
+   
+  }
