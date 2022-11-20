@@ -12,13 +12,12 @@ let passwordLength = document.getElementById("slider")
 
 
 
-
-
 // function to generate random a random character.
 function getRandomChar() {
     let randomChar = characters[Math.floor(Math.random() * characters.length)]
     return randomChar
 }
+
 
 // function that generates random string
 function generateRandomPassword() {
@@ -29,15 +28,14 @@ function generateRandomPassword() {
     return generatedPassword
     
 }
-// function that displays return values
-function displayPasswords() {
+// Function to display passwords on screen
+generate.addEventListener("click", function() {
     resultEl1.textContent = generateRandomPassword()
     resultEl2.textContent = generateRandomPassword()
-    
-}
+})
+
 
 // function to change display colors (light/dark mode)
-
 toggle.addEventListener("click", function() {
     this.classList.toggle("bi-brightness-high-fill")
     if (this.classList.toggle("bi-moon")) {
