@@ -61,10 +61,17 @@ hr {
     border: 1px solid #2f3e53;
 }
 
+.slider {
+    margin-bottom: 15px;
+}
+.slider:hover {
+    opacity: 0.7;
+}
+
 .password-container {
 display: flex;
 margin-top: 20px;
-gap: 10px;
+gap: 20px;
 
 }
 
@@ -105,3 +112,4 @@ gap: 10px;
    color: #EEEEEE;
    
   }
+

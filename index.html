@@ -24,6 +24,11 @@
         </h1>
         <h2 class="subtitle">Never use an insecure password again</h2>
         <button id="generate" onclick="displayPasswords()"> Generate passwords</button>
+        <div class="slider-container">
+            <input class="slider" type="range" min="8" max="26" value="8"
+            oninput="this.nextElementSibling.value = this.value" id="slider">
+            <output>8</output>
+        </div>
         <hr>
         <div class="password-container">
             <div id="first-pass"></div>
