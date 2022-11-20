@@ -61,9 +61,18 @@ hr {
     border: 1px solid #2f3e53;
 }
 
+input[type=range] {
+    -webkit-appearance:none;
+    background: #10B981;
+    height: 9px;
+    border-radius: 15px;
+    
+}
+
 .slider {
     margin-bottom: 15px;
 }
+
 .slider:hover {
     opacity: 0.7;
 }
